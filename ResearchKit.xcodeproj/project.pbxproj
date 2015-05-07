@@ -349,6 +349,8 @@
 		E4CC23AD1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */; };
 		E4CC23B11AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC23AF1AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h */; };
 		E4CC23B21AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC23B01AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m */; };
+		E4CC23B51AFC0088004D8C47 /* ORKVisualAcuityContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC23B31AFC0088004D8C47 /* ORKVisualAcuityContentView.h */; };
+		E4CC23B61AFC0088004D8C47 /* ORKVisualAcuityContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC23B41AFC0088004D8C47 /* ORKVisualAcuityContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -741,6 +743,8 @@
 		E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStep.m; sourceTree = "<group>"; };
 		E4CC23AF1AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKVisualAcuityStepViewController.h; sourceTree = "<group>"; };
 		E4CC23B01AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStepViewController.m; sourceTree = "<group>"; };
+		E4CC23B31AFC0088004D8C47 /* ORKVisualAcuityContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKVisualAcuityContentView.h; sourceTree = "<group>"; };
+		E4CC23B41AFC0088004D8C47 /* ORKVisualAcuityContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1579,6 +1583,8 @@
 				E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */,
 				E4CC23AF1AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h */,
 				E4CC23B01AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m */,
+				E4CC23B31AFC0088004D8C47 /* ORKVisualAcuityContentView.h */,
+				E4CC23B41AFC0088004D8C47 /* ORKVisualAcuityContentView.m */,
 			);
 			name = VisualAcuity;
 			sourceTree = "<group>";
@@ -1735,6 +1741,7 @@
 				86C40D2C1A8D7C5C00081FAC /* ORKHeadlineLabel.h in Headers */,
 				86C40D1C1A8D7C5C00081FAC /* ORKFormSectionTitleLabel.h in Headers */,
 				86C40CBC1A8D7C5C00081FAC /* UITouch+ORKJSONDictionary.h in Headers */,
+				E4CC23B51AFC0088004D8C47 /* ORKVisualAcuityContentView.h in Headers */,
 				86C40D741A8D7C5C00081FAC /* ORKScaleRangeLabel.h in Headers */,
 				86C40DDE1A8D7C5C00081FAC /* ORKVerticalContainerView.h in Headers */,
 				86C40CB01A8D7C5C00081FAC /* ORKRecorder_Internal.h in Headers */,
@@ -1969,6 +1976,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C40C341A8D7C5C00081FAC /* ORKFitnessStepViewController.m in Sources */,
+				E4CC23B61AFC0088004D8C47 /* ORKVisualAcuityContentView.m in Sources */,
 				86C40E2E1A8D7C5C00081FAC /* ORKVisualConsentStep.m in Sources */,
 				86C40CA61A8D7C5C00081FAC /* ORKLocationRecorder.m in Sources */,
 				86C40CB61A8D7C5C00081FAC /* ORKTouchRecorder.m in Sources */,

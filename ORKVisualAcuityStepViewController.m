@@ -7,31 +7,100 @@
 //
 
 #import "ORKVisualAcuityStepViewController.h"
+#import "ORKVisualAcuityContentView.h"
+#import "ORKStepViewController_Internal.h"
+#import "ORKActiveStepViewController_Internal.h"
+#import "ORKActiveStepView.h"
+
+
 
 @interface ORKVisualAcuityStepViewController ()
 
+@property (nonatomic, strong) ORKVisualAcuityContentView *visualAcuityContentView;
+@property (nonatomic, assign) BOOL expired;
+
+
 @end
 
-@implementation ORKVisualAcuityStepViewController
+@implementation ORKVisualAcuityStepViewController{
+    
+    
+}
+
+
+-(instancetype)initWithStep:(nullable ORKStep *)step{
+    
+    self = [super initWithStep:step];
+    
+    if (self) {
+        
+        self.suspendIfInactive = YES;
+        
+    }
+    
+    return self;
+    
+}
+
+-(void)initializeInternalButtonItems{
+    
+    //Don´t show next button
+    
+    self.internalContinueButtonItem = nil;
+    self.internalDoneButtonItem = nil;
+    
+    
+}
+
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.expired = NO;
+    
+    self.visualAcuityContentView = [[ORKVisualAcuityContentView alloc] init];
+    self.activeStepView.activeCustomView = self.visualAcuityContentView;
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+-(void)viewDidAppear:(BOOL)animated{
+    
+    [super viewDidAppear:animated];
+    
+    [self start];
+    
+    
 }
-*/
+
+
+-(void)start{
+    
+    [super start];
+    
+    //[self startCurrentTest];
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 @end
