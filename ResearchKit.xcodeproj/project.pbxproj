@@ -345,6 +345,8 @@
 		B1C7955E1A9FBF04007279BA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C7955D1A9FBF04007279BA /* HealthKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BC4194291AE8453A00073D6B /* ORKObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4194271AE8453A00073D6B /* ORKObserver.h */; };
 		BC41942A1AE8453A00073D6B /* ORKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4194281AE8453A00073D6B /* ORKObserver.m */; };
+		E4CC23AC1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC23AA1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h */; };
+		E4CC23AD1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -733,6 +735,8 @@
 		BC4194271AE8453A00073D6B /* ORKObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKObserver.h; sourceTree = "<group>"; };
 		BC4194281AE8453A00073D6B /* ORKObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKObserver.m; sourceTree = "<group>"; };
 		BCFB2EAF1AE70E4E0070B5D0 /* ORKConsentSceneViewController_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKConsentSceneViewController_Internal.h; sourceTree = "<group>"; };
+		E4CC23AA1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKVisualAcuityStep.h; sourceTree = "<group>"; };
+		E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -758,6 +762,7 @@
 		3FFF18341829DB1D00167070 = {
 			isa = PBXGroup;
 			children = (
+				E4CC23AE1AFBBB25004D8C47 /* VisualAcuity */,
 				B11DF3B21AA109C8009E76D2 /* docs */,
 				86B623AF19520B770074CD3C /* ResearchKit */,
 				86CC8EA61AC09383001CCD89 /* ResearchKitTests */,
@@ -1563,6 +1568,15 @@
 			name = Misc;
 			sourceTree = "<group>";
 		};
+		E4CC23AE1AFBBB25004D8C47 /* VisualAcuity */ = {
+			isa = PBXGroup;
+			children = (
+				E4CC23AA1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h */,
+				E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */,
+			);
+			name = VisualAcuity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1720,6 +1734,7 @@
 				86C40E101A8D7C5C00081FAC /* ORKConsentSceneViewController.h in Headers */,
 				86C40DAA1A8D7C5C00081FAC /* ORKSurveyAnswerCellForNumber.h in Headers */,
 				86C40D6E1A8D7C5C00081FAC /* ORKResult_Private.h in Headers */,
+				E4CC23AC1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h in Headers */,
 				86C40D161A8D7C5C00081FAC /* ORKErrors.h in Headers */,
 				861D11B51AA7D073003C98A7 /* ORKTextChoiceCellGroup.h in Headers */,
 				86C40C9A1A8D7C5C00081FAC /* ORKDataLogger_Private.h in Headers */,
@@ -2043,6 +2058,7 @@
 				86C40C5C1A8D7C5C00081FAC /* ORKWalkingTaskStep.m in Sources */,
 				86C40C3C1A8D7C5C00081FAC /* ORKSpatialSpanGameState.m in Sources */,
 				86C40CF41A8D7C5C00081FAC /* ORKBodyLabel.m in Sources */,
+				E4CC23AD1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m in Sources */,
 				86C40C941A8D7C5C00081FAC /* ORKAudioRecorder.m in Sources */,
 				86C40C581A8D7C5C00081FAC /* ORKTappingIntervalStepViewController.m in Sources */,
 				86C40E0E1A8D7C5C00081FAC /* ORKConsentReviewStepViewController.m in Sources */,
