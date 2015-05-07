@@ -347,6 +347,8 @@
 		BC41942A1AE8453A00073D6B /* ORKObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4194281AE8453A00073D6B /* ORKObserver.m */; };
 		E4CC23AC1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC23AA1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h */; };
 		E4CC23AD1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */; };
+		E4CC23B11AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC23AF1AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h */; };
+		E4CC23B21AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC23B01AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -737,6 +739,8 @@
 		BCFB2EAF1AE70E4E0070B5D0 /* ORKConsentSceneViewController_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORKConsentSceneViewController_Internal.h; sourceTree = "<group>"; };
 		E4CC23AA1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKVisualAcuityStep.h; sourceTree = "<group>"; };
 		E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStep.m; sourceTree = "<group>"; };
+		E4CC23AF1AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKVisualAcuityStepViewController.h; sourceTree = "<group>"; };
+		E4CC23B01AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStepViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1573,6 +1577,8 @@
 			children = (
 				E4CC23AA1AFBBB1C004D8C47 /* ORKVisualAcuityStep.h */,
 				E4CC23AB1AFBBB1C004D8C47 /* ORKVisualAcuityStep.m */,
+				E4CC23AF1AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h */,
+				E4CC23B01AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m */,
 			);
 			name = VisualAcuity;
 			sourceTree = "<group>";
@@ -1663,6 +1669,7 @@
 				86C40D7C1A8D7C5C00081FAC /* ORKScaleValueLabel.h in Headers */,
 				86C40E2C1A8D7C5C00081FAC /* ORKVisualConsentStep.h in Headers */,
 				86C40CB81A8D7C5C00081FAC /* ORKVoiceEngine.h in Headers */,
+				E4CC23B11AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.h in Headers */,
 				86C40C5A1A8D7C5C00081FAC /* ORKWalkingTaskStep.h in Headers */,
 				86C40E361A8D7C5C00081FAC /* ORKVisualConsentTransitionAnimator.h in Headers */,
 				86AD910D1AB7AE4100361FEB /* ORKNavigationContainerView_Internal.h in Headers */,
@@ -2001,6 +2008,7 @@
 				86C40E321A8D7C5C00081FAC /* ORKVisualConsentStepViewController.m in Sources */,
 				618DA0561A93D0D600E63AA8 /* UIView+ORKAccessibility.m in Sources */,
 				86C40D3A1A8D7C5C00081FAC /* ORKHTMLPDFWriter.m in Sources */,
+				E4CC23B21AFBBB9A004D8C47 /* ORKVisualAcuityStepViewController.m in Sources */,
 				865EA1691ABA1AA10037C68E /* ORKPicker.m in Sources */,
 				86C40D321A8D7C5C00081FAC /* ORKHealthAnswerFormat.m in Sources */,
 				86C40D861A8D7C5C00081FAC /* ORKSelectionTitleLabel.m in Sources */,
